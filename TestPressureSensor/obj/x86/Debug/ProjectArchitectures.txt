@@ -1,0 +1,1 @@
+C:\Users\Jack\source\repos\TestPressureSensor\TestPressureSensor\TestPressureSensor.csproj;x86

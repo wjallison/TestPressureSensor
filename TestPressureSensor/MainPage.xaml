@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="TestPressureSensor.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestPressureSensor"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="startButton" Content="Start" HorizontalAlignment="Center" VerticalAlignment="Center" Click="startButton_Click"/>
+            <TextBox x:Name="outputBox" Text="none" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Page>
